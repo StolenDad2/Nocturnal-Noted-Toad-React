@@ -8,8 +8,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Nocturnal Noted Toad</title>
-        <meta property="og:title" content="Nocturnal Noted Toad" />
+        <title>Taqueria Calculator</title>
+        <meta property="og:title" content="Taqueria Calculator" />
       </Helmet>
       <h1 className="home-text">?שמנת כוסברה חריף סבבה</h1>
     </div>
