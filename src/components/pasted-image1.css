@@ -1,0 +1,11 @@
+.pasted-image1-container {
+  display: flex;
+  position: relative;
+}
+@media(max-width: 479px) {
+  .pasted-image1-pasted-image {
+    margin-top: -32px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
+}

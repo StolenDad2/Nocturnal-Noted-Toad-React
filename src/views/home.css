@@ -7,3 +7,32 @@
   flex-direction: column;
   justify-content: center;
 }
+.home-container1 {
+  width: 100%;
+  height: 1032px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/playground_assets/pastedimage-uics-1100h.png");
+}
+.home-button {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  align-self: center;
+  transition: 0.3s;
+  font-family: Arial;
+  margin-bottom: var(--dl-space-space-sixunits);
+  text-decoration: none;
+  background-image: linear-gradient(to right, rgb(192, 36, 37) 0%, rgb(240, 203, 53) 100%);
+}
+.home-button:hover {
+  background-image: linear-gradient(90deg, rgb(192, 36, 37) 67.00%,rgb(240, 203, 53) 100.00%);
+}
+@media(max-width: 479px) {
+  .home-container {
+    background-color: var(--dl-color-primary-700);
+    background-image: url();
+  }
+}
