@@ -13,7 +13,7 @@ const Calc = (props) => {
       </Helmet>
       <div className="calc-container1"></div>
     </div>
-    <div class="calconic-calculator"  data-calculatorid="6353b751ec5be5002a99b951"></div>
+    <div className="calconic-calculator"  data-calculatorid="6353b751ec5be5002a99b951"></div>
 <script>
   (function() { var qs,j,q,s,d=document, gi=d.getElementById,
   ce=d.createElement, gt=d.getElementsByTagName,
