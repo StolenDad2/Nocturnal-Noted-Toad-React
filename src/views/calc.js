@@ -12,8 +12,7 @@ const Calc = (props) => {
         <meta property="og:title" content="calc - Taqueria Calculator" />
       </Helmet>
       <div className="calc-container1"></div>
-    </div>
-    <div className="calconic-calculator"  data-calculatorid="6353b751ec5be5002a99b951"></div>
+     <div class="calconic-calculator"  data-calculatorid="6353b751ec5be5002a99b951"></div>
 <script>
   (function() { var qs,j,q,s,d=document, gi=d.getElementById,
   ce=d.createElement, gt=d.getElementsByTagName,
@@ -23,6 +22,7 @@ const Calc = (props) => {
   j.src=b+"calconic.min.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(j,q) }
 })();
 </script>
+    </div>
   )
 }
 
