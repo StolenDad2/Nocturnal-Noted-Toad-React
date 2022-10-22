@@ -35,4 +35,8 @@
     background-color: var(--dl-color-primary-700);
     background-image: url();
   }
+  .home-container1 {
+    background-image: url("/playground_assets/pastedimage-uics-1100h.png");
+    background-position: top;
+  }
 }
